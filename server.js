@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 app.get('/', (req, res) =>{
-    res.json({"hello": "world"})
+    res.send("<h1>Hello world from Utibeabasi Umanah</h1>")
 })
 const port = process.env['PORT'] || 3000
 app.listen(port, () =>{
